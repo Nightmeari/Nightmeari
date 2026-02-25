@@ -15,6 +15,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Nightmeari
+          SETTING_JSON: ./settings.json
 
       - name: Commit & Push
         run: |
